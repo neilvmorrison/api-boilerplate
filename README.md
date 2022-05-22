@@ -1,7 +1,14 @@
-# Awesome Project Build with TypeORM
+# API Boilerplate
 
-Steps to run this project:
+RESTful API boilerplate using Koa, Koa-Router and Typeorm.
 
-1. Run `npm i` command
-2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+## How to set up
+
+1. `yarn install`
+2. Create `.env` file and copy + paste the contents of `.env.sample`.
+
+## Run
+
+1. `yarn dev` for local development
+2. `yarn build` to create a build
+3. `yarn start` to run from build
