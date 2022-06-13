@@ -5,7 +5,7 @@ import logger from "koa-logger";
 import "reflect-metadata";
 import { AppDataSource } from "./data-source";
 
-import router from "./routes";
+import router from "./router";
 
 dotenv.config();
 

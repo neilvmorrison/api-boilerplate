@@ -1,6 +1,6 @@
 import { DeepPartial, DeleteResult } from "typeorm";
-import { Test } from "../entity/test.entity";
-import { CrudService } from "./base.service";
+import { Test } from "./test.entity";
+import { CrudService } from "../../common/base.service";
 
 export class TestService {
   service: CrudService<Test>;

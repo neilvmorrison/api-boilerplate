@@ -1,5 +1,5 @@
 import Router from "koa-router";
-import testRouter from "./test.router";
+import testRouter from "../resources/test/test.router";
 
 const router = new Router();
 

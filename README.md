@@ -26,7 +26,7 @@ In the `src/entity` directory, create a new file with the naming convention `mye
 
 ### Create a Service
 
-Create a file in the `src/services` directory following the convention `myservice.service.ts`. It's recommended that we compose this new service with the BaseService class exported from `base.service` which contains basic CRUD operations to get started. The `*.service` classes are where the business logic of the application will live.
+Create a file in the `src/services` directory following the convention `myservice.service.ts`. It's recommended that we compose this new service with the BaseService class exported from `base.service` which contains basic CRUD operations to get started. The `*.service` classes are where the business logic of the application will live. The default behavior of the application is to leverage typeorm's [repository](https://typeorm.io/repository-api#repository-api) class in order to interact with the database and manipulate records within it.
 
 ### Create a Route
 
